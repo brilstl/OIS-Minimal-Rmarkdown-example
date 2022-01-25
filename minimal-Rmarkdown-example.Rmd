@@ -1,0 +1,104 @@
+---
+title: "Netwerkanalyse Amsterdam"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    css: "./references/styles.css"
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, dev.args=list(bg="transparent"))
+```
+
+# Introduction
+
+This document serves as an example of how to publish a `.Rmd` file on a git paltform as github and gitlab. Within the readme of this repro you can read a instruction of how to publish this file.
+
+# poc analysis {.tabset}
+
+```{r}
+
+library(ggiraph)
+library(tidyverse)
+library(ggtheme.ois)
+
+dt <- diamonds %>%
+  group_by(cut, clarity) %>% 
+  summarise(price = sum(price), .groups = "drop")
+  
+
+```
+
+## ggplot2
+
+```{r}
+
+#| fig.height = 6
+#| fig.width = 10
+
+dt %>% 
+  ggplot(aes(x = cut, y = price, group = clarity, fill = clarity, group = clarity)) +
+  geom_col() +
+  scale_fill_manual(values = ggtheme.ois::kleur_fun(8, kleuren$blauw)) +
+  theme_ois()
+
+```
+
+## ggiraph
+
+```{r}
+
+iraph_plot <- 
+  dt %>% 
+  ggplot(aes(x = cut, y = price, group = clarity, fill = clarity, group = clarity, data_id = clarity, tooltip = paste0(cut,"\n",clarity, "\n", price))) +
+  geom_col_interactive() +
+  scale_fill_manual(values = ggtheme.ois::kleur_fun(8, kleuren$blauw)) +
+  theme_ois()
+
+ggiraph(ggobj = iraph_plot,
+        width_svg = 10, height_svg = 6)
+
+```
+
+
+## ggiraph `asis` {.tabset .tabset-dropdown}
+
+```{r results='asis'}
+
+level_cut <- unique(as.character(dt$cut))
+
+for(i in seq_along(level_cut)){
+  
+  cat("\n")
+  
+  cat("###", level_cut[i])
+  
+  cat("\n")
+  
+  iraph_asis <- 
+    dt %>% 
+    filter(cut == level_cut[i]) %>% 
+    ggplot(aes(x = clarity, y = price, group = clarity, 
+               fill = cut, data_id = clarity, 
+               tooltip = paste0(cut, "\n", clarity, "\n", price))) +
+    geom_col_interactive() +
+    scale_fill_manual(values = ggtheme.ois::kleur_fun(8, kleuren$blauw)) + 
+    theme_ois()
+  
+  iraph_asis <- 
+    ggiraph(ggobj = iraph_asis,
+        width_svg = 10, height_svg = 6)
+  
+  print(
+    htmltools::tagList(iraph_asis)
+  )
+  
+  cat("\n")
+  
+}
+
+
+
+```
+

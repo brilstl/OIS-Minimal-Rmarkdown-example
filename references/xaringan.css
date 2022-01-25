@@ -1,0 +1,242 @@
+
+
+.inhoudsopgave{
+  
+  padding-right: 60%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 420px center;
+  background-image: url('./img/inhoud.jpg');
+}
+
+
+.logo {
+  background-image: url(img/logo_voor_social.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: .5em;
+  left: .7em;
+  width: 120px;
+  height: 150px;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-left2 {
+  float: left;
+  width: 35%;
+}
+.pull-right2 {
+  float: right;
+  width: 62%;
+}
+
+.title-slide {
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+}
+
+.title-slide h1:nth-of-type(1) {
+  display: block;
+  content: '';
+  font-size: 35px;
+  position: relative;
+  letter-spacing: -1px;  
+  background: #71BDEE; /* fallback color */
+  padding: 8px; 
+  padding-bottom: 70px ;
+  text-align: left ;
+  left: 1in;
+  top: 2.55in;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  white ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+.title-slide h3:nth-of-type(1) {
+  display: block;
+  content: '';
+  font-size: 20px;
+  position: relative;
+  text-align: left ;
+  left: 1.1in;
+  top: 1in;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  white ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+.title-slide h2:nth-of-type(1) {
+  display: block;
+  content: '';
+  font-size: 25px;
+  position: relative;
+  left: .9in;
+  top: 1.9in;
+  text-align: right ;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  white ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+.title-slide h3:nth-of-type(2) {
+  display: block;
+  content: '';
+  position: relative;
+  left: 2.55in;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  grey70 ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+.title-slide h3:nth-of-type(3) {
+  display: block;
+  content: '';
+  position: relative;
+  left: 2.55in;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  grey70 ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+.remark-slide h1 {
+  position: relative;  
+  font-size: 30px;
+  color:  #D33F49;
+    font-weight: 25;
+}
+
+
+.remark-slide h2 {
+  position: relative;  
+  font-size: 22px;
+  color:  grey;
+  font-weight: 25;
+  
+}
+
+.colofon {
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+}
+
+.colofon h1:nth-of-type(1) {
+  display: block;
+  content: '';
+  font-size: 35px;
+  position: relative;
+  letter-spacing: -1px;  
+  background: #71BDEE; /* fallback color */
+  padding: 8px; 
+  padding-bottom: 70px ;
+  text-align: left ;
+  left: 1in;
+  top: 2.55in;
+  margin: auto 0.55in 0.3in auto;
+  font-family: 'Corbel';
+  color:  white ;
+  text-shadow: 0 0 0px #FFF;
+}
+
+body {
+  font-family: 'Corbel';
+  overflow: auto;
+  
+}
+
+.remark-slide-content {
+  background-color: white;
+}
+
+
+div.vraag {
+  padding: 1em;
+  margin: 1em 0;
+  background-color: lightblue ;
+  min-height: 70px;
+  font-size: 18px ;
+  font-weight: 40;
+  color: white;
+  border: solid 1px lightblue;
+  border-radius: 12px;
+  float: right ;
+  clear: right ;
+  width: 57%  ;
+  margin-top:  0 ;
+  margin-bottom:  0 ;
+  vertical-align: baseline ;
+  position: relative ;
+}
+
+
+.remark-slide table{
+  width: 100%;
+  background-color: white ;
+  font-family: 'Corbel';
+  
+}
+
+li {
+  
+  text-align: left ;
+  font-weight: 10;
+  left: 15.85in;
+  
+}
+
+
+div.vraag2 {
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 180px;
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-color: lightblue ;
+  background-image: url('./img/cover_image.jpg');
+  min-height: 70px;
+  font-size: 18px ;
+  font-weight: 40;
+  color: white;
+  border: solid 1px lightblue;
+  border-radius: 12px;
+  float: right ;
+  clear: right ;
+  margin-right: -65% ;
+  width: 57%  ;
+  margin-top:  0 ;
+  margin-bottom:  0 ;
+  vertical-align: baseline ;
+  position: relative ;
+}
+
+.remark-slide table{
+  width: 100%;
+  
+}
+
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+  background-color: white;
+  
+}
+
+.caption{
+  padding-top: .1em;
+  padding-bottom: .1em;
+  font-size: 12px ;
+  font-weight: bold;
+  
+}

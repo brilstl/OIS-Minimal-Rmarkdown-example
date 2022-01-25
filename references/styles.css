@@ -1,0 +1,230 @@
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+
+#TOC {
+  background: white;
+  background: url("./img/gemeente_amsterdam.png");
+  background-size: contain;
+  padding-top: 140px !important;
+  font: 13px Corbel/13px Corbel;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-color: white;
+  top: -0.5%;
+  left: -.2%;
+  opacity: 0.7;
+}
+
+#TOC:hover {
+  opacity: 1;
+  font: 13px Corbel/13px Corbel;
+  
+}
+
+
+
+body {
+
+    font-family: Corbel;
+
+    position: relative;
+
+    left: 0.55in;
+
+    margin: auto 0.55in 0.3in auto;
+
+    line-height: 1.8;
+
+    font-size: 1.8rem;
+
+
+
+}
+
+h1 {
+
+  line-height: 1.2;
+
+  position: relative;
+
+  left: 0.55in;
+
+  margin: auto 0.55in 0.3in auto;
+
+}
+
+
+h2 {
+
+  line-height: 1.2;
+
+  position: relative;
+
+  left: 0.55in;
+
+  margin: auto 0.55in 0.3in auto;
+
+}
+
+h4 {
+
+  line-height: 1.5;
+  
+  font-size: 5rem;
+
+  color:  #D33F49;
+
+  position: relative;
+
+  left: .85in;
+
+  margin: auto 0.55in 0.3in auto;
+  
+  margin-top:  3px  ;
+}
+
+
+
+li {
+
+  
+
+
+  font-weight: 10;
+
+  
+
+}
+
+
+
+
+.r {
+
+  color: black ;
+
+  font-weight: 300 ;
+
+  font-family: 'Baloo Bhaina 2' ;
+
+  background-color: #FFFEF6 ;
+
+  border-color: #FFFFF6 ;
+
+  opacity: .8 ;
+
+  
+
+}
+
+div.puzzle {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 180px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-color: lightgrey ;
+    background-image: url("./img/vraag_teken.jpg");
+    min-height: 70px;
+    font-size: 19px ;
+    font-weight: 25;
+    color: black;
+    border: solid 1px grey;
+  }
+
+
+.main-container{
+  
+  margin-right: 200px ;
+  
+}
+
+
+div.vraag {
+    padding: .1em;
+    margin: .1em 0;
+    padding-left: 180px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-color: white ;
+    background-image: url('./img/vraag_teken.jpg');
+    min-height: 70px;
+    font-size: 15px ;
+    font-weight: 80;
+    color: black;
+    border: solid 1px lightblue;
+    border-radius: 12px;
+    float: right ;
+    clear: right ;
+    margin-right: 45% ;
+    width: 57%  ;
+    margin-top:  0 ;
+    margin-bottom:  0 ;
+    vertical-align: baseline ;
+    position: relative ;
+  }
+  
+  
+.details:summary {
+    font-size: 30px ;
+    font-weight: 30;
+    color: pink;
+    border: solid 8px purple;
+}
+
+
+
+a:link {
+
+  color: #77BA99;
+
+}
+
+.darkblue {
+
+  color: darkblue;
+
+}
+
+.forestgreen {
+
+  color: darkgreen;
+
+}
+
+.red {
+
+  color: #C62E65;
+
+}
+
+.pull-left {
+  
+  float: left;
+  width: 47%;
+  
+}
+.pull-right {
+  
+  float: right;
+  width: 47%;
+  
+}
+
+
+.figure {
+
+}
+p.caption {
+  color: black  ;
+  font-size: 13.5px ; 
+}
