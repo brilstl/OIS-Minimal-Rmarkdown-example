@@ -1,5 +1,5 @@
 ---
-title: "Netwerkanalyse Amsterdam"
+title: "minimal Rmarkdown example"
 output: 
   html_document:
     toc: true
