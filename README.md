@@ -1,5 +1,7 @@
 # OIS-Minimal-Rmarkdown-example
-A minimal example of how to create and host a Rmarkdown file on Github. The document is shown via ![this link](https://brilstl.github.io/OIS-Minimal-Rmarkdown-example/minimal-Rmarkdown-example.html)
+A minimal example of how to create and host a Rmarkdown file on Github. The document is shown via this link:
+
+- https://brilstl.github.io/OIS-Minimal-Rmarkdown-example/minimal-Rmarkdown-example.html
 
 ---
 
