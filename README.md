@@ -23,7 +23,7 @@ Make sure that the repro is public. You do this by nevagting to _settings_.
 
 In settings go to the buttom of the page and check if the repro is public.
 
-<br>
+<br><br>
 
 ![setting](img_github/step2_github.png)
 
