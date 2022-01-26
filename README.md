@@ -9,7 +9,7 @@ A minimal example of how to create _and_ host a Rmarkdown file on Github. The do
 
 # step 1: create a html document
 
-The first step is to create a document which is able to be published on the internet. In this example a html-file is created through `R`. Before pushing to github, I made sure that all my code is working properly.
+The first step is to create a document which is able to be published on the internet. In this example a html-file is created through `R`. Before pushing to github, make sure that all the code is working properly.
 
 ---
 

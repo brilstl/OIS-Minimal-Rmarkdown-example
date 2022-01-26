@@ -13,7 +13,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, dev.args=list(bg="transp
 
 # Introduction
 
-This document serves as an example of how to publish a `.Rmd` file on a git paltform as github and gitlab. Within the readme of this repro you can read a instruction of how to publish this file.
+This document serves as an example of how to publish a `.Rmd` file on a git platform as github and gitlab. Within the readme of this repro you can read an instruction of how to publish this file.
 
 # poc analysis {.tabset}
 
