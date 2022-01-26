@@ -1,5 +1,7 @@
 # OIS-Minimal-Rmarkdown-example
-A minimal example of how to create and host a Rmarkdown file on Github. The document is shown via this link:
+<br>
+
+A minimal example of how to create _and_ host a Rmarkdown file on Github. The document is shown via this link:
 
 - https://brilstl.github.io/OIS-Minimal-Rmarkdown-example/minimal-Rmarkdown-example.html
 
@@ -7,13 +9,13 @@ A minimal example of how to create and host a Rmarkdown file on Github. The docu
 
 # step 1: create a html document
 
-The first step is to create a document which is able to be published on the internet In this example a html-file is created through `R`. I made sure that all my code is working proparly on my local device before pushing it on to github. 
+The first step is to create a document which is able to be published on the internet. In this example a html-file is created through `R`. Before pushing to github, I made sure that all my code is working properly.
 
 ---
 
 # step 2: public repro
 
-Make sure that the repro is public. You do this by nevagting to _settings_.
+Make sure that the repro is public. You do this by navigating to _settings_.
 
 <br>
 
@@ -21,7 +23,7 @@ Make sure that the repro is public. You do this by nevagting to _settings_.
 
 <br>
 
-In settings go to the buttom of the page and check if the repro is public.
+In settings go to the bottom of the page and check if the repro is public.
 
 <br><br>
 
@@ -31,13 +33,13 @@ In settings go to the buttom of the page and check if the repro is public.
 
 # step 3: setup pages
 
-Scrole up and choose the pages tab in the sidebar.
+Select the _pages_ tab in the sidebar on the top of the page.
 
 <br>
 
 ![setting](img_github/step3_github.png)
 
-In de settings of the pages choose the following options
+Set the following options in the settings of the page.
 
 <br>
 
