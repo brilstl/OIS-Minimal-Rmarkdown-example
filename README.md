@@ -33,7 +33,7 @@ In settings go to the bottom of the page and check if the repro is public.
 
 # step 3: setup pages
 
-Select the _pages_ tab in the sidebar on the top of the page.
+Select the _pages_ tab on the sidebar on the top of the page.
 
 <br>
 
